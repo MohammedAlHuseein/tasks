@@ -1,0 +1,134 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px
+    
+}
+
+
+#navbar{
+    display: flex;
+    
+    width:100%;
+    height: 100px;
+    justify-content: space-between;
+  
+
+}
+#navbar img {
+   width: 100px;
+   height: 100px;
+   opacity: 0.7;
+}
+#anav{
+    display: flex;
+margin-top: 30px;
+gap: 10px;
+font-size: large;
+margin-right: 15px;
+align-items: center;
+}
+#anav a {
+    color: rgb(34, 8, 230);
+    text-decoration: none;
+}
+#navbar h1 {
+    position: absolute;
+    display: flex;
+    color: aliceblue;
+ margin-left: 42%;
+margin-top: 30px;
+color: rgb(236, 244, 244);
+}
+#main{
+    display: grid;
+    grid-template-areas:'left middle right'
+                          'left middle right' 
+                          'left middle right';
+                    grid-template-columns:1fr 2fr 1fr ;  
+                    height: 500px;    
+}
+#left{
+    
+    grid-area: left;
+}
+#left img {
+    width: 100%;
+    height: 100%;
+  
+}
+#middle{
+    
+    grid-area: middle;
+}
+#middle h1{
+    
+    padding: 10px;
+}
+#mid p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.group {
+   
+    padding: 10px;
+    margin: 10px;
+}
+#o{
+    margin-top: 5px;
+}
+#t{
+    margin-top: 5px;
+}
+#th{
+    margin-top: 5px;
+}
+#right{
+    
+    grid-area: right;
+}
+#right img {
+    width: 100%;
+    height: 100%;
+   
+   
+}
+#footer{
+    display: grid;
+    
+    width: 100%;
+    height: 100px;
+     grid-template-areas: 'l m r';
+    grid-template-columns: 1fr 3fr 1fr;
+   
+}
+#footer p {
+    font-size: large;
+    color: aliceblue;
+
+}
+#l{
+    grid-area: l;
+    background-color: rgb(13, 13, 13);
+}
+#m{
+    grid-area: m;
+    background-color: rgb(244, 241, 236);
+}
+
+#r{
+    grid-area: r;
+    background-color: rgb(9, 9, 9);
+}
+
+body{
+    background-image: url(/image/21.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#middle  {
+    background-color: transparent;
+}

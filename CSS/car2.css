@@ -1,0 +1,96 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#nav{
+    background-color: rgb(15, 15, 15);
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+#nav img{
+    width: 150px;
+    height: 100px;
+   
+}
+#nav h1{
+    color: aliceblue;
+ margin-left: 500px;
+ margin-top: 10px;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#atag{
+    margin-top: 30px;
+   padding: 5px;
+   text-align: right;
+  
+}
+#atag a{
+    padding: 5px;
+    text-decoration: none;
+    color: aliceblue;
+   
+
+}
+#ptag{
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+}
+#ptag p{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+#contact{
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+#main{
+    display: grid;
+    grid-template-areas: 'l m r';
+    grid-template-columns: 2fr 3fr 1fr;
+    height: calc(100vh - 200px);
+   
+}
+#l{
+    grid-area: l;
+   
+  
+}
+#m{
+    grid-area: m;
+    background-color: rgb(246, 253, 253);
+    
+}
+#r{
+    grid-area: r;
+    background-color: rgb(245, 244, 246);
+   
+}
+table, th, td {
+    border: 1px solid black;
+    align-items: center;
+}
+table th {
+    text-align: center;
+}
+table{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+td{
+    width: 250px;
+    height: 200px;
+    
+}

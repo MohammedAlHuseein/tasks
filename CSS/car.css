@@ -1,0 +1,44 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+#car{
+    display: grid;
+    grid-template-areas: 'bmw mar gol';
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+}
+#bmw{
+    grid-area: bmw;
+    background-image: url(/image/bmw.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#mar{
+     background-image: url(/image/mar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: mar;
+    height: 100%;
+}
+#gol{
+     background-image: url(/image/fox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: gol;
+    height: 100%;
+}
+#fo{
+    margin-top: 40px;
+    display: block;
+    padding: 10px;
+   
+}
+#click button{
+    margin-left: 80px; 
+    margin-top: 5px;
+}
